@@ -1,3 +1,13 @@
+"""
+
+bsp.py
+
+Contains definitions for a simplistic 2D Binary Space Partitioning tree setup. 
+Currently limited to only vertical and horizontal partitions, because I'm bad 
+at geometry. :(
+
+"""
+
 import gc
 from itertools import izip, product, permutations
 from collections import OrderedDict

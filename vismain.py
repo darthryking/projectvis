@@ -1,3 +1,19 @@
+"""
+
+vismain.py
+
+The main graphical runtime for the VIS Project. Calculates all points within 
+the 2D geometry that are visible/not visible to the current viewpoint/view 
+angle, and colors the points white or black as necessary.
+
+Currently suffers from some performance issues with regards to large open 
+spaces (see test2-bsp.vdf as a test case with bad performance). Most likely 
+bottleneck is the quadtree-esque stack manipulation algorithm, which does a 
+lot of Python object handling in a tight loop. Consider Cythonizing the 
+algorithm if profiling confirms the bottleneck.
+
+"""
+
 import os
 import sys
 import math

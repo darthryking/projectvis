@@ -1,3 +1,24 @@
+"""
+
+lumberjack.py
+
+Simple tool that can be used to generate 2D BSP trees by hand. Currently 
+limited to only vertical and horizontal partitions, because I'm bad at 
+geometry. :(
+
+This tool uses the graphics.pyd extension module, which is an old wrapper 
+around Pygame that I wrote a while back. graphics.pyd was intended to 
+encapsulate Pygame functions into stupidly easy function calls so I could 
+more easily teach beginners some basic graphics programming. However, I found 
+that it's also stupidly useful for easily writing small graphical tools 
+without needing a bunch of of boilerplate, which is why I use it for 
+lumberjack.py. Since graphics.pyd suffers from some performance issues if you 
+give it a lot of draw commands in a tight loop, I don't use it for vismain.py. 
+Thankfully, lumberjack.py does not require a lot of individual draw commands, 
+so graphics.pyd works perfectly fine in this tool. 
+
+"""
+
 import sys
 
 import graphics

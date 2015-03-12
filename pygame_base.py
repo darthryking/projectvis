@@ -1,3 +1,13 @@
+"""
+
+pygame_base.py
+
+A base file containing a simple Pygame loop. Intended for easy copy+pasting of 
+a new Pygame script, so I don't have to keep writing Pygame scripts from 
+scratch.
+
+"""
+
 import os
 import sys
 

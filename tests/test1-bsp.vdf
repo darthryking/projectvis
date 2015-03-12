@@ -1,0 +1,473 @@
+"BSP"
+{
+    "maxWidth"    "1024"
+    "maxHeight"    "768"
+    "elements"
+    {
+        "0"
+        {
+            "bounds"
+            {
+                "left"    "0"
+                "top"    "0"
+                "right"    "1024"
+                "bottom"    "768"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "1"
+            "partition"    "416"
+            "left"    "12"
+            "right"    "1"
+
+        }
+        "1"
+        {
+            "bounds"
+            {
+                "left"    "416"
+                "top"    "0"
+                "right"    "1024"
+                "bottom"    "768"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "1"
+            "partition"    "736"
+            "left"    "3"
+            "right"    "2"
+
+        }
+        "2"
+        {
+            "bounds"
+            {
+                "left"    "736"
+                "top"    "0"
+                "right"    "1024"
+                "bottom"    "768"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "-1"
+            "solid"    "True"
+
+        }
+        "3"
+        {
+            "bounds"
+            {
+                "left"    "416"
+                "top"    "0"
+                "right"    "736"
+                "bottom"    "768"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "0"
+            "partition"    "512"
+            "left"    "5"
+            "right"    "4"
+
+        }
+        "4"
+        {
+            "bounds"
+            {
+                "left"    "416"
+                "top"    "512"
+                "right"    "736"
+                "bottom"    "768"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "-1"
+            "solid"    "True"
+
+        }
+        "5"
+        {
+            "bounds"
+            {
+                "left"    "416"
+                "top"    "0"
+                "right"    "736"
+                "bottom"    "512"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "0"
+            "partition"    "256"
+            "left"    "7"
+            "right"    "6"
+
+        }
+        "6"
+        {
+            "bounds"
+            {
+                "left"    "416"
+                "top"    "256"
+                "right"    "736"
+                "bottom"    "512"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "0"
+            "solid"    "False"
+
+        }
+        "7"
+        {
+            "bounds"
+            {
+                "left"    "416"
+                "top"    "0"
+                "right"    "736"
+                "bottom"    "256"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "1"
+            "partition"    "640"
+            "left"    "11"
+            "right"    "8"
+
+        }
+        "8"
+        {
+            "bounds"
+            {
+                "left"    "640"
+                "top"    "0"
+                "right"    "736"
+                "bottom"    "256"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "0"
+            "partition"    "32"
+            "left"    "10"
+            "right"    "9"
+
+        }
+        "9"
+        {
+            "bounds"
+            {
+                "left"    "640"
+                "top"    "32"
+                "right"    "736"
+                "bottom"    "256"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "1"
+            "solid"    "False"
+
+        }
+        "10"
+        {
+            "bounds"
+            {
+                "left"    "640"
+                "top"    "0"
+                "right"    "736"
+                "bottom"    "32"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "-1"
+            "solid"    "True"
+
+        }
+        "11"
+        {
+            "bounds"
+            {
+                "left"    "416"
+                "top"    "0"
+                "right"    "640"
+                "bottom"    "256"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "-1"
+            "solid"    "True"
+
+        }
+        "12"
+        {
+            "bounds"
+            {
+                "left"    "0"
+                "top"    "0"
+                "right"    "416"
+                "bottom"    "768"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "0"
+            "partition"    "352"
+            "left"    "14"
+            "right"    "13"
+
+        }
+        "13"
+        {
+            "bounds"
+            {
+                "left"    "0"
+                "top"    "352"
+                "right"    "416"
+                "bottom"    "768"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "-1"
+            "solid"    "True"
+
+        }
+        "14"
+        {
+            "bounds"
+            {
+                "left"    "0"
+                "top"    "0"
+                "right"    "416"
+                "bottom"    "352"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "0"
+            "partition"    "256"
+            "left"    "18"
+            "right"    "15"
+
+        }
+        "15"
+        {
+            "bounds"
+            {
+                "left"    "0"
+                "top"    "256"
+                "right"    "416"
+                "bottom"    "352"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "1"
+            "partition"    "32"
+            "left"    "17"
+            "right"    "16"
+
+        }
+        "16"
+        {
+            "bounds"
+            {
+                "left"    "32"
+                "top"    "256"
+                "right"    "416"
+                "bottom"    "352"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "2"
+            "solid"    "False"
+
+        }
+        "17"
+        {
+            "bounds"
+            {
+                "left"    "0"
+                "top"    "256"
+                "right"    "32"
+                "bottom"    "352"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "-1"
+            "solid"    "True"
+
+        }
+        "18"
+        {
+            "bounds"
+            {
+                "left"    "0"
+                "top"    "0"
+                "right"    "416"
+                "bottom"    "256"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "0"
+            "partition"    "224"
+            "left"    "24"
+            "right"    "19"
+
+        }
+        "19"
+        {
+            "bounds"
+            {
+                "left"    "0"
+                "top"    "224"
+                "right"    "416"
+                "bottom"    "256"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "1"
+            "partition"    "320"
+            "left"    "21"
+            "right"    "20"
+
+        }
+        "20"
+        {
+            "bounds"
+            {
+                "left"    "320"
+                "top"    "224"
+                "right"    "416"
+                "bottom"    "256"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "-1"
+            "solid"    "True"
+
+        }
+        "21"
+        {
+            "bounds"
+            {
+                "left"    "0"
+                "top"    "224"
+                "right"    "320"
+                "bottom"    "256"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "1"
+            "partition"    "192"
+            "left"    "23"
+            "right"    "22"
+
+        }
+        "22"
+        {
+            "bounds"
+            {
+                "left"    "192"
+                "top"    "224"
+                "right"    "320"
+                "bottom"    "256"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "3"
+            "solid"    "False"
+
+        }
+        "23"
+        {
+            "bounds"
+            {
+                "left"    "0"
+                "top"    "224"
+                "right"    "192"
+                "bottom"    "256"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "-1"
+            "solid"    "True"
+
+        }
+        "24"
+        {
+            "bounds"
+            {
+                "left"    "0"
+                "top"    "0"
+                "right"    "416"
+                "bottom"    "224"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "1"
+            "partition"    "32"
+            "left"    "28"
+            "right"    "25"
+
+        }
+        "25"
+        {
+            "bounds"
+            {
+                "left"    "32"
+                "top"    "0"
+                "right"    "416"
+                "bottom"    "224"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "0"
+            "partition"    "32"
+            "left"    "27"
+            "right"    "26"
+
+        }
+        "26"
+        {
+            "bounds"
+            {
+                "left"    "32"
+                "top"    "32"
+                "right"    "416"
+                "bottom"    "224"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "4"
+            "solid"    "False"
+
+        }
+        "27"
+        {
+            "bounds"
+            {
+                "left"    "32"
+                "top"    "0"
+                "right"    "416"
+                "bottom"    "32"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "-1"
+            "solid"    "True"
+
+        }
+        "28"
+        {
+            "bounds"
+            {
+                "left"    "0"
+                "top"    "0"
+                "right"    "32"
+                "bottom"    "224"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "-1"
+            "solid"    "True"
+
+        }
+
+    }
+
+}

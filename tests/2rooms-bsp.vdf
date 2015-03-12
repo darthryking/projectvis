@@ -1,0 +1,217 @@
+"BSP"
+{
+    "maxWidth"    "1024"
+    "maxHeight"    "768"
+    "elements"
+    {
+        "0"
+        {
+            "bounds"
+            {
+                "left"    "0"
+                "top"    "0"
+                "right"    "1024"
+                "bottom"    "768"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "1"
+            "partition"    "320"
+            "left"    "12"
+            "right"    "1"
+
+        }
+        "1"
+        {
+            "bounds"
+            {
+                "left"    "320"
+                "top"    "0"
+                "right"    "1024"
+                "bottom"    "768"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "1"
+            "partition"    "704"
+            "left"    "3"
+            "right"    "2"
+
+        }
+        "2"
+        {
+            "bounds"
+            {
+                "left"    "704"
+                "top"    "0"
+                "right"    "1024"
+                "bottom"    "768"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "-1"
+            "solid"    "True"
+
+        }
+        "3"
+        {
+            "bounds"
+            {
+                "left"    "320"
+                "top"    "0"
+                "right"    "704"
+                "bottom"    "768"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "0"
+            "partition"    "256"
+            "left"    "11"
+            "right"    "4"
+
+        }
+        "4"
+        {
+            "bounds"
+            {
+                "left"    "320"
+                "top"    "256"
+                "right"    "704"
+                "bottom"    "768"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "0"
+            "partition"    "480"
+            "left"    "6"
+            "right"    "5"
+
+        }
+        "5"
+        {
+            "bounds"
+            {
+                "left"    "320"
+                "top"    "480"
+                "right"    "704"
+                "bottom"    "768"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "-1"
+            "solid"    "True"
+
+        }
+        "6"
+        {
+            "bounds"
+            {
+                "left"    "320"
+                "top"    "256"
+                "right"    "704"
+                "bottom"    "480"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "1"
+            "partition"    "480"
+            "left"    "10"
+            "right"    "7"
+
+        }
+        "7"
+        {
+            "bounds"
+            {
+                "left"    "480"
+                "top"    "256"
+                "right"    "704"
+                "bottom"    "480"
+
+            }
+            "type"    "BSPNode"
+            "orientation"    "1"
+            "partition"    "544"
+            "left"    "9"
+            "right"    "8"
+
+        }
+        "8"
+        {
+            "bounds"
+            {
+                "left"    "544"
+                "top"    "256"
+                "right"    "704"
+                "bottom"    "480"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "0"
+            "solid"    "False"
+
+        }
+        "9"
+        {
+            "bounds"
+            {
+                "left"    "480"
+                "top"    "256"
+                "right"    "544"
+                "bottom"    "480"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "-1"
+            "solid"    "True"
+
+        }
+        "10"
+        {
+            "bounds"
+            {
+                "left"    "320"
+                "top"    "256"
+                "right"    "480"
+                "bottom"    "480"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "1"
+            "solid"    "False"
+
+        }
+        "11"
+        {
+            "bounds"
+            {
+                "left"    "320"
+                "top"    "0"
+                "right"    "704"
+                "bottom"    "256"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "-1"
+            "solid"    "True"
+
+        }
+        "12"
+        {
+            "bounds"
+            {
+                "left"    "0"
+                "top"    "0"
+                "right"    "320"
+                "bottom"    "768"
+
+            }
+            "type"    "BSPLeaf"
+            "leafID"    "-1"
+            "solid"    "True"
+
+        }
+
+    }
+
+}
